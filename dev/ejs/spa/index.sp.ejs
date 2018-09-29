@@ -1,0 +1,18 @@
+<%
+
+    /*
+    spaページ情報の指定
+    */
+
+    const pageData = JSON.parse(include('../../data/page/spa.json'));
+
+%>
+
+<%- include('../common/sp/_head.ejs', {pageData}); %>
+<%- include('../common/sp/_header.ejs', {pageData}); %>
+    <div class="container">
+        <div id="app">
+        </div>
+    </div>
+<%- include('../common/sp/_footer.ejs', {pageData}); %>
+<%- include('../common/sp/_foot.ejs', {pageData}); %>

@@ -1,0 +1,13 @@
+/*
+読み込むファイルを設定
+*/
+
+@import './base/_reset.css';
+@import './base/_variable.css';
+@import './base/_base.css';
+@import './base/_mixin.css';
+@import './base/_common.css';
+@import './layout/_header.css';
+@import './layout/_footer.css';
+@import './components/_component.css';
+@import './page/_top.css';

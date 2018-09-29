@@ -1,0 +1,11 @@
+<% if (pageData.addScripts) { %>
+    <%
+        const scriptsArry = pageData.addScripts.scriptsSP;
+        scriptsArry.forEach(function(item) {
+    %>
+    <script defer src="<%= pageData.rootPath %><%= item.name %>"></script>
+    <% }); %>
+<% } %>
+<script defer src="<%= pageData.rootPath %>assets/js/common.sp.js"></script>
+</body>
+</html>

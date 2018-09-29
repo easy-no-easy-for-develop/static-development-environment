@@ -1,0 +1,17 @@
+{
+    "rootPath": "/",
+    "imgPath": "sample",
+    "pageId": "top",
+    "siteTitle": "sample",
+    "description": "sample",
+    "canonical": "sample",
+    "og": {
+        "title": "sample",
+        "siteName": "sample",
+        "description": "sample",
+        "url": "sample",
+        "type": "website",
+        "img": "sample"
+    },
+    "fbAppId": "0000000000000000"
+}

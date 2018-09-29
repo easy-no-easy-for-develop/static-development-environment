@@ -1,0 +1,17 @@
+<%
+
+    /*
+    トップページ情報の指定
+    */
+
+    const pageData = JSON.parse(include('../data/page/top.json'));
+
+%>
+
+<%- include('./common/sp/_head.ejs', {pageData}); %>
+<%- include('./common/sp/_header.ejs', {pageData}); %>
+<section>
+    <h1>コンテンツ</h1>
+</section>
+<%- include('./common/sp/_footer.ejs', {pageData}); %>
+<%- include('./common/sp/_foot.ejs', {pageData}); %>

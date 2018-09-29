@@ -1,0 +1,11 @@
+# 「.node_modules」フォルダを除外
+node_modules/
+
+# 「デバッグログ」ファイルを除外
+npm-debug.log
+
+# 「DS_Store」ファイルを除外
+.DS_Store
+
+# 「swp」ファイルを除外
+.*.swp
